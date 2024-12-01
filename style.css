@@ -1,0 +1,75 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ada3a3; /* ou posso usar também algo mais escuro */
+}
+ 
+
+#main-header {
+    background-color: #333; /* recomendacao de cor, apresenta bom contraste com branco */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin: 10px 0;
+}
+
+.contact-list li i {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+
+a[href] {
+    color: #0b75e6;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+
+header h1 {
+    text-decoration: underline;
+}
+
+
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #333;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
